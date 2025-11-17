@@ -85,8 +85,9 @@ df = pd.read_excel('Glasgow5GDataSet.xlsx', sheet_name=0)
 
 # Convert timestamp
 df['Timestamp'] = pd.to_datetime(df['Timestamp'], unit='D', origin='1899-12-30')
+```python
 
-🤝 Contributing
+##🤝 Contributing
 
 Fork the repo and submit a PR for additions (e.g., more dates, analysis scripts).
 Report issues for data anomalies or suggestions.
@@ -95,7 +96,7 @@ Cite this dataset in your work: @misc{glasgow5g2025, author = {Hart, Ahren}, tit
 # Basic stats
 print(df.groupby('Network Provider')['Download Speed (Mbps)'].mean())
 
-📄 License
+##📄 License
 License: CC BY 4.0
 This dataset is licensed under the Creative Commons Attribution 4.0 International License.
 You are free to:
