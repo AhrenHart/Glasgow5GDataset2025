@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: Glasgow 5G Performance Dataset
+version: 1.0.0
+date-released: 2025-11-17
+abstract: Processed 5G network performance data from Glasgow, Scotland (April 2025), including speeds, latency, and signal from major UK providers.
+authors:
+- family-names: Hart
+  given-names: Ahren
+url: https://github.com/AhrenHart/Glasgow5GDataset2025
+repository: https://github.com/AhrenHart/Glasgow5GDataset2025
+
+# BibTeX entry
+preferred-citation:
+  type: dataset
+  title: Glasgow 5G Performance Dataset
+  authors:
+    - family-names: Hart
+      given-names: Ahren
+  year: 2025
+  publisher: University of the West of Scotland
+  url: https://github.com/AhrenHart/Glasgow5GDataset2025
