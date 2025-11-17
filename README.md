@@ -66,7 +66,7 @@ Averages by network provider, highlighting strengths in speed vs. consistency.
 
 ## 📁 Dataset Structure
 The repository includes:
-- **`Glasgow5GDataSet.xlsx`**: Raw data in Excel format.
+- **`Glasgow5GDataSet.xlsx`**: Processed and compiled raw data in Excel format for easy reading and use.
   - **Sheets 0–2**: Daily raw measurements (timestamps as Excel serial dates; convert via `pd.to_datetime` in Python).
   - **Sheet 3**: Pre-computed averages (locations, providers, days).
 
@@ -77,12 +77,11 @@ The repository includes:
 
 ## 🤝 Contributing
 
-Fork the repo and submit a PR for additions (e.g., more dates, analysis scripts).
-Report issues for data anomalies or suggestions.
-Cite this dataset in your work: @misc{glasgow5g2025, author = {Hart, Ahren}, title = {Glasgow 5G Performance Dataset}, year = {2025}, url = {https://github.com/AhrenHart/Glasgow5GDataset2025} }
+* Fork the repo and submit a PR for additions (e.g., more dates, analysis scripts).
 
-# Basic stats
-print(df.groupby('Network Provider')['Download Speed (Mbps)'].mean())
+* Report issues for data anomalies or suggestions.
+
+* Cite this dataset in your work: @misc{glasgow5g2025, author = {Hart, Ahren}, title = {Glasgow 5G Performance Dataset}, year = {2025}, url = {https://github.com/AhrenHart/Glasgow5GDataset2025} }
 
 ## 📄 License
 License: CC BY 4.0  
