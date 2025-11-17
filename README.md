@@ -1,6 +1,6 @@
 # Glasgow5GDataset2025
 
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE.md)
 [![Data Date](https://img.shields.io/badge/Date-April%202025-blue.svg)](https://github.com/AhrenHart/Glasgow5GDataset2025)
 [![Locations](https://img.shields.io/badge/Locations-16-orange.svg)](https://github.com/AhrenHart/Glasgow5GDataset2025)
 
@@ -75,7 +75,7 @@ The repository includes:
 |--------------------|-------------------|----------|-----------------------|--------------|-----------------|---------------|-----------|
 | 2025-04-06 08:30  | Glasgow City Centre | EE      | Google Pixel 9 Pro   | -86         | 907.32         | 192.95       | 29.75    |
 
-##🤝 Contributing
+## 🤝 Contributing
 
 Fork the repo and submit a PR for additions (e.g., more dates, analysis scripts).
 Report issues for data anomalies or suggestions.
@@ -84,19 +84,21 @@ Cite this dataset in your work: @misc{glasgow5g2025, author = {Hart, Ahren}, tit
 # Basic stats
 print(df.groupby('Network Provider')['Download Speed (Mbps)'].mean())
 
-##📄 License
-License: CC BY 4.0
-This dataset is licensed under the Creative Commons Attribution 4.0 International License.
-You are free to:
+## 📄 License
+License: CC BY 4.0  
+This dataset is licensed under the [Creative Commons Attribution 4.0 International License](LICENSE.md).  
 
-Share — copy and redistribute the material in any medium or format
-Adapt — remix, transform, and build upon the material for any purpose, including commercially
+You are free to:  
+* Share — copy and redistribute the material in any medium or format  
+* Adapt — remix, transform, and build upon the material for any purpose, including commercially  
 
-Under the following terms:
+Under the following terms:  
+* Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.  
 
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-
-Suggested Citation:
-Hart, A. (2025). Glasgow 5G Performance Dataset [Data set]. University of the West of Scotland, Paisley, UK. https://github.com/AhrenHart/Glasgow5GDataset2025
+Suggested Citation: Hart, A. (2025). Glasgow 5G Performance Dataset [Data set]. University of the West of Scotland, Paisley, UK. https://github.com/AhrenHart/Glasgow5GDataset2025  
 For questions, contact Ahren Hart at Ahren.hart@uws.ac.uk.
+
+## 👤 Author
+Ahren Hart – Researcher at University of the West of Scotland, focused on Holographic Communication Networks Enhanced By 5G/6G Networks and AI. 
+Collected with open-source tools like Speedtest CLI. All data is anonymized and for public research use.2.8s
 
