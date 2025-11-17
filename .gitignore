@@ -1,0 +1,14 @@
+# Excel backups
+~*.xlsx
+~*.xls
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter (if adding notebooks later)
+.ipynb_checkpoints/
+
+# Logs/DBs
+*.log
+*.db
