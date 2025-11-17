@@ -23,6 +23,14 @@ This dataset provides insights into 5G connectivity in Glasgow, focusing on key 
   - Upload: 165.05 Mbps
   - Ping: 21.62 ms
   - Signal: -77.85 dBm
+ 
+**Download Speed Distribution per Network Provider**
+<img width="2970" height="1765" alt="download_speed_distribution" src="https://github.com/user-attachments/assets/17b71fda-9a8d-4eae-a9cf-64333d796cb5" />
+Box plot showing download speed distributions (Mbps) across providers. EE and Vodafone show higher variability, while O2 and Sky Mobile are more consistent.
+
+**Signal Strength by Provider**
+<img width="2970" height="1765" alt="signal_strength_by_provider" src="https://github.com/user-attachments/assets/2ad6c60c-cd94-4a0f-9554-29a0f43955b8" />
+Box plot of signal strength (dBm; lower = stronger). Sky Mobile exhibits the strongest average signal, followed closely by Vodafone.
 
 ## 🗺️ Locations Covered
 Tests were conducted in a mix of central, residential, and peripheral areas to represent Glasgow's urban fabric.
@@ -47,6 +55,22 @@ Tests were conducted in a mix of central, residential, and peripheral areas to r
 
 *Glasgow-wide average*: 670.63 Mbps download, 165.05 Mbps upload, 21.62 ms ping, -77.85 dBm signal.
 
+**5G Average Download Speeds Across Glasgow**
+<img width="1536" height="754" alt="HeatMap2" src="https://github.com/user-attachments/assets/41dd5a89-dc23-43f8-aca4-042996d88579" />
+Choropleth map of average 5G download speeds (Mbps) across Glasgow neighborhoods. Warmer colors indicate higher speeds.
+
+**Average Upload Speed by Area**
+<img width="2969" height="1765" alt="avg_upload_by_area" src="https://github.com/user-attachments/assets/26f431f9-ca39-4bcb-8243-1f213e7396a2" />
+Bar chart of average upload speeds (Mbps) across Glasgow neighborhoods. Shawlands and Pollok lead in upload performance.
+
+**Average Ping by Area**
+<img width="2969" height="1765" alt="avg_ping_by_area" src="https://github.com/user-attachments/assets/a9c5f432-7cc4-46d2-aa54-9cb68b818a24" />
+Bar chart of average ping latency (ms). Partick and Maryhill show the lowest (best) latency, ideal for gaming or video calls.
+
+**Average Download Speed by Area**
+<img width="2969" height="1765" alt="avg_download_by_area" src="https://github.com/user-attachments/assets/fa23dda5-6bc6-42f9-a06e-ba3c904444dd" />
+Bar chart of average download speeds (Mbps). Easterhouse and Govan top the list for peak throughput.
+
 ## 📈 Provider Performance
 Averages by network provider, highlighting strengths in speed vs. consistency.
 
@@ -63,6 +87,10 @@ Averages by network provider, highlighting strengths in speed vs. consistency.
 | 2025-04-06 | 694.18              | 163.45            | 21.36         | -78.39           |
 | 2025-04-07 | 680.77              | 162.88            | 21.64         | -77.56           |
 | 2025-04-08 | 636.94              | 168.81            | 21.87         | -77.61           |
+
+**Avg Download Speed: Area vs Network Provider**
+<img width="3392" height="2365" alt="avg_download_heatmap" src="https://github.com/user-attachments/assets/d6297677-2806-42b6-91b5-6e4f3a569a13" />
+Heatmap of average download speeds (Mbps) by location and provider. O2 shines in central areas like Glasgow City Centre, while EE dominates in suburbs like Cathcart.
 
 ## 📁 Dataset Structure
 The repository includes:
