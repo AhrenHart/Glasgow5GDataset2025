@@ -2,7 +2,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE.md)
 [![Data Date](https://img.shields.io/badge/Date-April%202025-blue.svg)](https://github.com/AhrenHart/Glasgow5GDataset2025)
-[![Locations](https://img.shields.io/badge/Locations-16-orange.svg)](https://github.com/AhrenHart/Glasgow5GDataset2025)
+[![Locations](https://img.shields.io/badge/Locations-15-orange.svg)](https://github.com/AhrenHart/Glasgow5GDataset2025)
 
 A comprehensive dataset capturing real-world 5G network performance across Glasgow, Scotland, collected in April 2025. This includes speed tests from major UK providers in urban and suburban locations, tested on flagship Android devices.
 
