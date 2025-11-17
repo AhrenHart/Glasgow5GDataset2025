@@ -127,5 +127,5 @@ For questions, contact Ahren Hart at Ahren.hart@uws.ac.uk.
 
 ## 👤 Author
 Ahren Hart – Researcher at University of the West of Scotland, focused on Holographic Communication Networks Enhanced By 5G/6G Networks and AI. 
-Collected with open-source tools like Speedtest CLI. All data is anonymized and for public research use.2.8s
+Collected with open-source tools like Speedtest CLI. All data is anonymized and for public research use.
 
