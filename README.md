@@ -75,18 +75,6 @@ The repository includes:
 |--------------------|-------------------|----------|-----------------------|--------------|-----------------|---------------|-----------|
 | 2025-04-06 08:30  | Glasgow City Centre | EE      | Google Pixel 9 Pro   | -86         | 907.32         | 192.95       | 29.75    |
 
-## 🔧 Usage
-### Loading the Data
-```python
-import pandas as pd
-
-# Load raw sheet (e.g., April 6)
-df = pd.read_excel('Glasgow5GDataSet.xlsx', sheet_name=0)
-
-# Convert timestamp
-df['Timestamp'] = pd.to_datetime(df['Timestamp'], unit='D', origin='1899-12-30')
-```python
-
 ##🤝 Contributing
 
 Fork the repo and submit a PR for additions (e.g., more dates, analysis scripts).
@@ -111,3 +99,4 @@ Attribution — You must give appropriate credit, provide a link to the license,
 Suggested Citation:
 Hart, A. (2025). Glasgow 5G Performance Dataset [Data set]. University of the West of Scotland, Paisley, UK. https://github.com/AhrenHart/Glasgow5GDataset2025
 For questions, contact Ahren Hart at Ahren.hart@uws.ac.uk.
+
