@@ -7,10 +7,10 @@
 A comprehensive dataset capturing real-world 5G network performance across Glasgow, Scotland, collected in April 2025. This includes speed tests from major UK providers in urban and suburban locations, tested on flagship Android devices.
 
 ## 📊 Overview
-This dataset provides insights into 5G connectivity in Glasgow, focusing on key metrics like download/upload speeds, ping latency, and signal strength. Data was gathered over three consecutive days (April 6–8, 2025) using automated speed tests in 16 diverse neighborhoods. It's ideal for researchers, network engineers, or urban planners studying mobile broadband performance, coverage disparities, or 5G rollout effectiveness.
+This dataset provides insights into 5G connectivity in Glasgow, focusing on key metrics like download/upload speeds, ping latency, and signal strength. Data was gathered over three consecutive days (April 6–8, 2025) using automated speed tests in 15 diverse neighborhoods. It's ideal for researchers, network engineers, or urban planners studying mobile broadband performance, coverage disparities, or 5G rollout effectiveness.
 
 ### Key Highlights
-- **Total Tests**: ~1,200+ individual measurements (4 providers × 2 devices × 16 locations × 3 days).
+- **Total Tests**: ~1,200+ individual measurements (4 providers × 2 devices × 15 locations × 3 days).
 - **Providers**: EE, O2, Vodafone, Sky Mobile.
 - **Devices**: Google Pixel 9 Pro, Samsung Galaxy S24 Ultra.
 - **Metrics**:
